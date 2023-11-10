@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: system-ui;
+    background: linear-gradient(rgb(0, 0, 0), hsla(0, 6%, 17%, 0));
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+header {
+    position: absolute;
+    width: 95%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+header .logo {
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+header ul li {
+    margin-right: 30px;
+
+
+}
+
+header ul li a {
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+.active {
+    background-color: rgb(78, 81, 80);
+    color: rgb(0, 0, 0);
+
+}
+h1{
+   
+    background: linear-gradient(rgb(0, 255, 0), hsla(0, 6%, 17%, 0));
+    color: black
+    
+}
+
+h4 {  
+color: #fff;
+background-color: blue;
+
+}
+h2 {
+    color: red;
+  background-color: #000000;
+}
+h3 {
+    color: gold;
+ background-color: #000000;
+
+}
+
+.main {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to top, #fffeff, transparent);
+
+}
+
+.main img {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+
+}
+
+.contant {
+    color: #fff;
+    padding: 60px;
+
+}
+
+.contan h2 {
+    margin: 20px;
+    font-size: 40px;
+}
+
+.contant p {
+    margin: 15px;
+color: #ffffff;
+
+}
+
+section img {
+    width: 99%;
+    height: 200vh;
+    align-items: center;
+    border-radius: 300px;
+}
+
+.kimo img {
+    width: 100%;
+    height: 170vh;
+    display: flex;
+    align-items: center;
+    border-radius: 500px;
+}
+
+.kkk img {
+    width: 100%;
+    height: 120vh;
+    border-radius: 100px;
+
+}
+
+.kkk a {
+    color: red;
+    background-color: blue;
+}
+.ka img{
+    width: 10%;
+    border-radius: 100%;
+   height: 20vh;
+}
+
+@media(min-width:500px) and (max-width:1000px) {
+    body {
+        background: rgb(103, 3, 137);
+
+        .content .image img {
+            width: 200px;
+        }
+    }
+
+    /* Smartphones (portrait) */
+    @media only screen and (max-width: 320px) {
+        /* Styles */
+    }
+
+    /* iPads (portrait and landscape)  */
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        /* Styles */
+    }
+
+    /* Desktops and laptops  */
+    @media only screen and (min-width: 1224px) {
+        /* Styles */
+    }
+}
